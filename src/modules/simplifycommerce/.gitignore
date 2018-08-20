@@ -1,0 +1,6 @@
+.DS_Store
+.idea/
+*.ipr
+*.iml
+node_modules/
+errorShots/
