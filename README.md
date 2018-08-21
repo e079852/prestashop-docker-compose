@@ -3,23 +3,24 @@
 Based on  [PrestaShop/docker](https://github.com/PrestaShop/docker)
 
 ## What is this project
-`Prestashop docker-compose` is a great way to bootstrap a Prestashop development environmemt.
-
+This is an installation of Prestashop with the Simplify plugin that has been preconfigured with a test product to run "out of the box."
 ## How to use it
 
-We recommend to avoid the `PS_INSTALL_AUTO` feature. Instead, copy your own custom installation in `src/`.
+The only configuration needed is to add the appropriate API keys. To do so follow the instruction below:
 
-For running an existing running website, export your database to a SQL file and paste it in `docker/mariadb/import.sql`. It will be imported to MariaDB when creating the container.
+Prestashop version 1.7.4.1
+Simplify Commerce version 1.4.2
 
-The prestashop image is customized to include Xdebug, higher limits, etc. You can customize the Dockerfile, run `docker-compose build prestashop` and `docker-compose up`.
+Username: joe.bloggs@asdf.com
+Password: Password99
 
-#### src/config/settings.inc.php
-```php
-<?php
-define('_DB_SERVER_',         getenv('DB_SERVER'));
-define('_DB_NAME_',           getenv('DB_NAME'));
-define('_DB_USER_',           getenv('DB_USER'));
-define('_DB_PASSWD_',         getenv('DB_PASSWD'));
-```
+To bring up the docker image and configure the API keys:
 
-### Use this configuration for development/testing, not production
+1. Run docker-compose up
+2. In a browser, go to the dashboard at http://localhost/admin8388earpn/
+3. Login as joe.bloggs@asdf.com/Password99
+4. In the left-hand pane, click on Modules/Modules & Services
+5. In the list of installed plugsins click on Simplify Commerce/Configure
+6. For Sandbox, click on the "Test Mode" checkbox and add your Test Public and Private keys. For Live payments, click on "Live Mode" is not checked and add your Live Public and Private keys.
+7. Click on the "Save Settings" button.
+8. Visit the store (http://localhost) to run transactions.
