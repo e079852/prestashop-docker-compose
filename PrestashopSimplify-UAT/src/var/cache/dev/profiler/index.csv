@@ -5,3 +5,6 @@ e88432,172.20.0.1,GET,http://localhost/admin8388earpn/index.php/module/manage/ac
 b17106,172.19.0.1,GET,http://localhost/admin8388earpn/index.php/module/manage?_token=WAf3o5xdy2VvgzisxxM86pXSYMMdsbuANKz3alnCpjw,1534851993,,200
 905226,172.19.0.1,GET,http://localhost/admin8388earpn/index.php/module/notifications/count?_token=WAf3o5xdy2VvgzisxxM86pXSYMMdsbuANKz3alnCpjw,1534851998,,200
 81ac2e,172.19.0.1,POST,http://localhost/admin8388earpn/index.php/module/manage/action/configure/simplifycommerce?_token=WAf3o5xdy2VvgzisxxM86pXSYMMdsbuANKz3alnCpjw,1534852004,,302
+91b798,172.27.0.1,GET,http://localhost/admin8388earpn/index.php/module/manage?_token=2PVvk_vP7zpXW4zlVCFVlCSl17fPGOqPt956R8NNgLg,1534862075,,200
+9dbc0e,172.27.0.1,GET,http://localhost/admin8388earpn/index.php/module/notifications/count?_token=2PVvk_vP7zpXW4zlVCFVlCSl17fPGOqPt956R8NNgLg,1534862082,,200
+577bef,172.27.0.1,POST,http://localhost/admin8388earpn/index.php/module/manage/action/reset/simplifycommerce?_token=2PVvk_vP7zpXW4zlVCFVlCSl17fPGOqPt956R8NNgLg,1534862093,,200
