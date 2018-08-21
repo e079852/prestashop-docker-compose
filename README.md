@@ -3,7 +3,7 @@
 Based on  [PrestaShop/docker](https://github.com/PrestaShop/docker)
 
 ## What is this project
-This is an installation of Prestashop with the Simplify plugin that has been preconfigured with a test product to run "out of the box."
+This is an installation of Prestashop with the Simplify plugin that has been preconfigured with a test product to run "out of the box." There are two versions of the installation: PrestashopSimplify-PROD will send transactions to the Production environment at www.simplify.com, while PrestashopSimplify-UAT will send transactions to the UAT environment at uat.simplify.com.
 ## How to use it
 
 The only configuration needed is to add the appropriate API keys. To do so follow the instruction below:
