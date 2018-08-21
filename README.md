@@ -24,3 +24,5 @@ To bring up the docker image and configure the API keys:
 6. For Sandbox, click on the "Test Mode" checkbox and add your Test Public and Private keys. For Live payments, click on "Live Mode" is not checked and add your Live Public and Private keys.
 7. Click on the "Save Settings" button.
 8. Visit the store (http://localhost) to run transactions.
+
+NB. In the UAT environment, the currency configured in your store must match the currency of the onboarded merchant at Simplify.com
