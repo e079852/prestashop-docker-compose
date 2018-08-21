@@ -1,4 +1,0 @@
-634426,172.20.0.1,GET,http://localhost/admin8388earpn/index.php/module/manage?_token=JbSr2Q8LoOk5ThtDTH-PciOmLZFgrelNso7idNMgs2M,1534765615,,200
-e4dbc8,172.20.0.1,GET,http://localhost/admin8388earpn/index.php/module/notifications/count?_token=JbSr2Q8LoOk5ThtDTH-PciOmLZFgrelNso7idNMgs2M,1534765622,,200
-b85369,172.20.0.1,POST,http://localhost/admin8388earpn/index.php/module/import?_token=JbSr2Q8LoOk5ThtDTH-PciOmLZFgrelNso7idNMgs2M,1534765636,,200
-e88432,172.20.0.1,GET,http://localhost/admin8388earpn/index.php/module/manage/action/configure/simplifycommerce?_token=JbSr2Q8LoOk5ThtDTH-PciOmLZFgrelNso7idNMgs2M,1534765652,,302
