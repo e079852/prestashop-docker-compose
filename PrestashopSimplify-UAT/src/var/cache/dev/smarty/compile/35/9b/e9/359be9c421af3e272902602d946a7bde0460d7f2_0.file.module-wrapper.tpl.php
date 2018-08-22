@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-08-20 07:47:35
+/* Smarty version 3.1.32, created on 2018-08-22 12:12:40
   from '/var/www/html/modules/simplifycommerce/views/templates/hook/module-wrapper.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5b7aaa57c178c8_56596370',
+  'unifunc' => 'content_5b7d8b7887dd22_08826244',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '359be9c421af3e272902602d946a7bde0460d7f2' => 
     array (
       0 => '/var/www/html/modules/simplifycommerce/views/templates/hook/module-wrapper.tpl',
-      1 => 1534765635,
+      1 => 1534953858,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b7aaa57c178c8_56596370 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b7d8b7887dd22_08826244 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link href="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['module_dir']->value ));?>
 views/css/style.css" rel="stylesheet" type="text/css" media="all"/>
 <link href="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['module_dir']->value ));?>
@@ -33,8 +33,8 @@ views/js/spectrum.js"><?php echo '</script'; ?>
 
 <div class="simplify-module-wrapper">
     <div class="simplify-module-header">
-        <a href="https://www.simplify.com/" target="_blank" class="left">
-            <img class="logo" src="//www.simplify.com/commerce/static/images/app-logo-pos.png"
+        <a href="https://uat.simplify.com/" target="_blank" class="left">
+            <img class="logo" src="//uat.simplify.com/commerce/static/images/app-logo-pos.png"
                  alt="Simplify Commerce Logo" width="150" height="64"></a>
 
         <div class="header-title left">
@@ -44,14 +44,14 @@ views/js/spectrum.js"><?php echo '</script'; ?>
             <h2><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'It’s that simple.','mod'=>'simplifycommerce'),$_smarty_tpl ) );?>
 </h2>
         </div>
-        <a href="https://www.simplify.com/commerce/partners/prestashop#/" target="_blank" class="btn right"><span><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Sign up for free','mod'=>'simplifycommerce'),$_smarty_tpl ) );?>
+        <a href="https://uat.simplify.com/commerce/partners/prestashop#/" target="_blank" class="btn right"><span><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Sign up for free','mod'=>'simplifycommerce'),$_smarty_tpl ) );?>
 </span></a>
     </div>
     <div class="section">
         <div class="clearfix">
             <div class="marketing left">
                 <div class="w-container features item">
-                    <img class="features item icon" src="//www.simplify.com/commerce/static/images/feature_signup.jpg"
+                    <img class="features item icon" src="//uat.simplify.com/commerce/static/images/feature_signup.jpg"
                          alt="feature_signup.jpg">
 
                     <h1 class="features item h1"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Easy sign up','mod'=>'simplifycommerce'),$_smarty_tpl ) );?>
@@ -82,7 +82,7 @@ views/img/feature_price.jpg"
             </div>
             <div class="marketing left">
                 <div class="w-container features item">
-                    <img class="features item icon" src="//www.simplify.com/commerce/static/images/feature_funding.jpg"
+                    <img class="features item icon" src="//uat.simplify.com/commerce/static/images/feature_funding.jpg"
                          alt="feature_signup.jpg">
 
                     <h1 class="features item h1"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Two-day funding','mod'=>'simplifycommerce'),$_smarty_tpl ) );?>
@@ -188,7 +188,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 </div>
                     All transactions in test mode are test payments. You can test your installation using card numbers
                     from our
-                    <a href="https://www.simplify.com/commerce/docs/tutorial/index#testing" target="_blank">list of test
+                    <a href="https://uat.simplify.com/commerce/docs/tutorial/index#testing" target="_blank">list of test
                         card numbers</a>.
                     You cannot process real payments in test mode, so all other card numbers will be declined.</p>
                     <p>
@@ -360,7 +360,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                                 <tr>
                                     <td class="hp-notes" colspan="2">
                                         To use hosted payments you must create a new API Key pair with the <b>'Enable hosted payments'</b> option selected.<br/>
-                                        For more information, please visit this <a target="_new" href="https://www.simplify.com/commerce/docs/tools/hosted-payments">link</a>
+                                        For more information, please visit this <a target="_new" href="https://uat.simplify.com/commerce/docs/tools/hosted-payments">link</a>
                                     </td>
                                 </tr>
                             </table>
