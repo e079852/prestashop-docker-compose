@@ -29,11 +29,18 @@ NB. In the UAT environment, the currency configured in your store must match the
 
 ## Troubleshooting
 
+1. Loopback:
+
 If you get the following error: 
 
 "NOTE: You're missing your loopback alias. Runthe docker/simplify/bin/add_alias. You need that for mylocal to work"
 
 run the script as described.
+
+
+2. Hosts file:
+
+You may need to add the following to your hosts file: "127.0.0.1       localhost"
 
 ## Links
 
