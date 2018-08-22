@@ -34,3 +34,7 @@ If you get the following error:
 "NOTE: You're missing your loopback alias. Runthe docker/simplify/bin/add_alias. You need that for mylocal to work"
 
 run the script as described.
+
+## Links
+
+Docker setup: https://store.docker.com/
