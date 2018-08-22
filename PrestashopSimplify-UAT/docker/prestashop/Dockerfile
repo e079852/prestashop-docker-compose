@@ -17,3 +17,12 @@ RUN yes | pecl install xdebug-2.5.5 \
 
 RUN usermod -u 1000 www-data
 RUN chown 1000 /var/www -R
+
+RUN mkdir -p /etc/apache2/ssl
+COPY server.crt /etc/apache2/ssl/server.crt
+COPY server.key /etc/apache2/ssl/server.key
+COPY alphalaundryservices.store.uat.simplify.com.conf /etc/apache2/sites-enabled/alphalaundryservices.store.uat.simplify.com.conf
+RUN a2enmod rewrite
+RUN a2enmod ssl
+RUN service apache2 restart
+
