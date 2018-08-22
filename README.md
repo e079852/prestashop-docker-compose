@@ -26,3 +26,11 @@ To bring up the docker image and configure the API keys:
 8. Visit the store (http://localhost) to run transactions.
 
 NB. In the UAT environment, the currency configured in your store must match the currency of the onboarded merchant at Simplify.com
+
+## Troubleshooting
+
+If you get the following error: 
+
+"NOTE: You're missing your loopback alias. Runthe docker/simplify/bin/add_alias. You need that for mylocal to work"
+
+run the script as described.
