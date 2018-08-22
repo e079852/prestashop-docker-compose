@@ -40,7 +40,7 @@ run the script as described.
 
 2. Hosts file:
 
-You may need to add the following to your hosts file: "127.0.0.1       localhost"
+You may need to add the following to your hosts file: "127.0.0.1       localhost alphalaundryservices.store.uat.simplify.com"
 
 ## Links
 
